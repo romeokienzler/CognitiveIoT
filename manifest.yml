@@ -9,8 +9,8 @@ applications:
 - services:
   - iotf-service
   - cloudantNoSQLDB
-  name: elevator-simulator
-  host: elevator-simulator
-  memory: 528M
+  name: cognitive-iot
+  host: ognitive-iot
+  memory: 512M
   instances: 1
   disk_quota: 1024M
