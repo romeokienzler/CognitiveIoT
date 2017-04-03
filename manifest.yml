@@ -1,0 +1,16 @@
+declared-services:
+  iotf-service:
+    label: iotf-service
+    plan: iotf-service-free
+  cloudantNoSQLDB:
+    label: cloudantNoSQLDB
+    plan: Lite
+applications:
+- services:
+  - iotf-service
+  - cloudantNoSQLDB
+  name: elevator-simulator
+  host: elevator-simulator
+  memory: 528M
+  instances: 1
+  disk_quota: 1024M
