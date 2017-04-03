@@ -32,7 +32,10 @@ var appEnv = cfenv.getAppEnv();
 var VCAP_APPLICATION = JSON.parse(process.env.VCAP_APPLICATION);
 
 // Add a simple route for static content served from './public'
-app.use( "/", express.static("public") );
+//app.use( "/", express.static("public") );
+app.get('/', function(req, res) {
+  res.redirect('/red');
+});
 
 // Create a server
 var httpServer = http.createServer(app);
