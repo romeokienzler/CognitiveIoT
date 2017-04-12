@@ -1,18 +1,19 @@
-# iot-device-samples
-This repository contains samples for connecting your device(s) to the IBM Watson Internet of Things Platform in different languages. The samples include,
+# CognitiveIoT Reference Architecture + simple example
+This repository contains samples for a fast-track deployment of the Edge part of an IoT system based on NodeRED. It is part of an overall tutorial which can be found [HERE](https://ibm.biz/CognitiveIoT). This repository is used in the fast-track recipie which can be found [HERE](https://developer.ibm.com/recipes/tutorials/realtime-anomaly-detection-on-the-iot-edge-using-nodered-and-moving-zscore/). Those are the steps:
 
-* Publishing device events to Watson IoT Platform using MQTT
-* Publishing device events to Watson IoT Platform using HTTP
-* Subscribing to commands from application
-* Respond to Device Management Requests
+* Deploying NodeRED to the cloud
+* Starting the test data generator
+* Stream data into a NoSQL database
+* Analyze it using ApacheSparkSQL
+* Update the model on the Edge
+* Finally, implement an Edge based Anomaly Detector using moving zscore
 
-Currently, there are samples for Java and Node-RED; information and instructions regarding the use of these samples can be found in their respective directories.
+
 
 ----
 
 ### License
 -----------------------
 
-The library is shipped with Eclipse Public License and refer to the [License file] (https://github.com/ibm-messaging/iot-device-samples
-/blob/master/LICENSE) for more information about the licensing.
+The project is shipped with Apache License and refer to the [License file] (https://github.com/romeokienzler/CognitiveIoT/blob/master/LICENSE) for more information about the licensing.
 
