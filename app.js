@@ -37,6 +37,13 @@ app.get('/', function(req, res) {
   res.redirect('/red');
 });
 
+app.get('/credentials', function(req,res) {
+    if (process.env.VCAP_SERVICES) {
+        res.setHeader('Content-Type', 'application/json');
+        res.send(process.env.VCAP_SERVICES);
+    }
+});
+
 // Create a server
 var httpServer = http.createServer(app);
 var port = process.env.VCAP_APP_PORT || 8080;
