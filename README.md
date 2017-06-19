@@ -15,5 +15,5 @@ This repository contains samples for a fast-track deployment of the Edge part of
 ### License
 -----------------------
 
-The project is shipped with Apache License and refer to the [License file] (https://github.com/romeokienzler/CognitiveIoT/blob/master/LICENSE) for more information about the licensing.
+The project is shipped with Apache License and refer to the [License file](https://github.com/romeokienzler/CognitiveIoT/blob/master/LICENSE) for more information about the licensing.
 
