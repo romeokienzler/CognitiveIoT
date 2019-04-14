@@ -1,5 +1,5 @@
 # CognitiveIoT Reference Architecture + simple example
-This repository contains samples for a fast-track deployment of the Edge part of an IoT system based on NodeRED. It is part of an overall tutorial which can be found [HERE](https://ibm.biz/CognitiveIoT). This repository is used in the fast-track recipie which can be found [HERE](https://developer.ibm.com/recipes/tutorials/realtime-anomaly-detection-on-the-iot-edge-using-nodered-and-moving-zscore/). Those are the steps:
+This repository contains samples for a fast-track deployment of the Edge part of an IoT system based on NodeRED. It is part of an overall tutorial which can be found [HERE](https://ibm.biz/CognitiveIoT). This repository is used in the fast-track recipes which can be found [HERE](https://developer.ibm.com/recipes/tutorials/realtime-anomaly-detection-on-the-iot-edge-using-nodered-and-moving-zscore/). Those are the steps:
 
 * Deploying NodeRED to the cloud
 * Starting the test data generator
